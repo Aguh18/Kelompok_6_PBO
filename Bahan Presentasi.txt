@@ -1,0 +1,32 @@
+IndexOf berfungsi untuk  menunjukan charakter atau kata yang ada dalam sebuah kalimat index ke berapa
+#Metode yang digunakan pada Method IndexOf
+public int indexOf(int char)
+public int indexOf(int char, int fromIndex)
+public int indexOf(String str)
+public int indexOf(String str, int fromIndex)
+
+//char merepresentasikan karakter tunggal didalam string
+//fromIndex menandakan posisi di mana pencarian indeks karakter atau substring harus dimulai. Ini penting di mana Anda memiliki dua karakter/string yang memiliki nilai yang sama dalam sebuah string. Dengan parameter ini, Anda dapat memberi tahu metode indexOf dari mana memulai operasinya.
+// str mewakili substring dalam sebuah string.
+
+
+Isemty adalah method yang berfungsi untuk mengecek apakah sebuah String apakah kosong atau tidak
+#Metode yang digunakan pada method IsEmty
+Contoh
+ String myStr1 = "Hello";
+        String myStr2 = "";
+        System.out.println(myStr1.isEmpty());
+        System.out.println(myStr2.isEmpty());
+
+Maka keluarannya adalah
+false
+true
+
+LastIndex sama halnya dengan indexOF namun method ini akan mencari dari yang paling terakhir
+#Metode Yang digunakan pada method LastIndex
+public int lastIndexOf(String str)
+public int lastIndexOf(String str, int fromIndex)
+public int lastIndexOf(int char)
+public int lastIndexOf(int char, int fromIndex)
+
+
